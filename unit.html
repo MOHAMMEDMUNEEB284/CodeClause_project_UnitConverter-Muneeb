@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" contet="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="unit.css">
+    </head>
+    <body>
+        <div class="container">
+            <p>WELCOME TO UNIT CONVERTER PAGE</p>
+            <h1>UNIT CONVERTER</h1>
+            <div class="c1">
+                <input type="number" id="inputValue" placeholder="Enter Value">
+                <select id="fromUnit">
+                    <option value="CM">CM</option>
+                    <option value="INCH">INCH</option>
+                    <option value="METER">METER</option>
+                </select>
+                <select id="toUnit">
+                    <option value="CM">CM</option>
+                    <option value="INCH">INCH</option>
+                    <option value="METER">METER</option>
+                </select>
+                <button onclick="convert()">Convert</button>
+                <p id="result"></p>
+            </div>
+        </div>
+        <script src="unit.js"></script>
+    </body>
+</html>
